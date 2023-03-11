@@ -1,3 +1,5 @@
+server:
+  port: 8081
 spring:
   jpa:
     database: h2
@@ -23,8 +25,6 @@ spring:
         web-allow-others: false
   application:
     name: EMPLOYEE-SERVICE
-server:
-  port: 8081
   
 eureka:
   client:
